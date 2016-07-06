@@ -1,0 +1,52 @@
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) { 
+
+    .header { 
+    	.main-nav { 
+    		button {
+        		margin-right: 0;
+        	}
+        	.navbar-collapse {
+        		padding-left: 15px;
+       			padding-right: 15px;        
+    		}
+    	}
+    }
+    
+    .welcome {
+    	background-color: $body-bg;
+
+    	.title {
+        	font-size: 66px;
+    	}
+   		.meta {
+        	margin-top: 60px;
+        	li {
+        		float: none;
+        		display: block;
+        		margin-bottom: 5px;
+    		}
+    	}
+    }
+
+
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+      
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+}

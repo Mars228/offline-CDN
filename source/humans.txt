@@ -1,0 +1,15 @@
+/* TEAM */
+Developer: My name
+Site: http://mysite.lh
+
+/* THANKS */
+Middleman: http://middlemanapp.com
+Bootstrap: http://getbootstrap.com
+Font Awesome: http://fortawesome.github.com/Font-Awesome
+
+/* SITE */
+Standards: HTML5, CSS3
+Components: Bootstrap, jQuery, Font Awesome, Compass
+
+/* SPECIAL THANKS */
+Support: Urszula Winiarska

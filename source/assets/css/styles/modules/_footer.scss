@@ -1,0 +1,150 @@
+// Footer
+footer {
+    padding: 25px 0;
+    background-color: #492e2c;
+    color: rgba(255, 255, 255, 0.4);
+    span.copyright {
+        line-height: 30px;
+        font-family: $font-title;
+        font-weight: 400;
+        text-transform: none;
+    }
+    ul.quicklinks {
+        margin-bottom: 0;
+        line-height: 30px;
+        font-family: $font-title;
+        text-transform: none;
+        text-align: right;
+    }
+
+// Social Buttons
+ul.social-buttons {
+    margin-bottom: 0;
+    text-align: right;
+    li {
+        text-align: center;
+        a {
+            display: block;
+            background-color: rgba(255, 255, 255, 0.4);
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            font-size: 16px;
+            line-height: 30px;
+            color: #492e2c;
+            outline: none;
+            @include transition (all 0.3s);
+
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+}
+
+
+}
+
+
+
+
+a {
+    @include transition (all 1s easy 1s);
+    &.scrollup {
+        width:50px;
+        height:50px;
+        padding: 0;//6px 8px 9px;
+        @include border-radius(4px);
+        background: rgba(0,0,0,0.5);
+        position:fixed;
+        text-align: center;
+        line-height: 60px;
+        bottom:15px;
+        right:20px;
+        display:none;
+        opacity: 0.89;
+        z-index:499841;
+        
+        &:hover {
+            background-color: $link-color;
+            cursor:pointer;
+            text-decoration: none;
+            //@include transition (all 0.2s ease-in-out);
+        }
+        i {
+            font-size:32px;
+            line-height:32px;
+            color:#fff;
+        }
+    }
+}
+
+
+
+
+////////////////////////
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 9999999999;
+}
+
+.spinner {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    -webkit-animation: rotatee 2.0s infinite linear;
+    animation: rotatee 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+    width: 60%;
+    height: 60%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    background-color: $link-color;
+    border-radius: 100%;
+    -webkit-animation: bouncee 2.0s infinite ease-in-out;
+    animation: bouncee 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+    top: auto;
+    bottom: 0px;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes rotatee { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes rotatee {
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes bouncee {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncee {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    } 50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+      }
+}

@@ -1,0 +1,39 @@
+lang: 'pl'
+title: 'CDN'
+
+author:
+  name: 'Arkadiusz Hauzer'
+  email: 'arkadiusz@hauzer.pl'
+
+copyright:
+  year: '&copy; 2016'
+  owner: 'Arkadiusz Hauzer'
+
+oldie: '<p class="browsehappy">Przeglądarka której używasz <strong>jest przestarzała</strong>. Tracisz możliwość skorzystania z pełni możliwości oferowanych przez niektóre strony internetowe. <a href="http://browsehappy.com/">Zaktualizuj przeglądarkę już teraz</a>.</p>'
+# oldie: '<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>'
+
+#Używamy plików cookies, aby ułatwić Ci korzystanie z naszego serwisu oraz do celów statystycznych. Jeśli nie blokujesz tych plików, to zgadzasz się na ich użycie oraz zapisanie w pamięci urządzenia. Pamiętaj, że możesz samodzielnie zarządzać cookies, zmieniając ustawienia przeglądarki.
+# This website uses cookies to ensure you get the best experience on our website
+cookie:
+  message: 'Ta strona korzysta z plików cookies w celach statystycznych, reklamowych oraz funkcjonalnych. Dzięki nim możemy indywidualnie dostosować stronę do twoich potrzeb.'
+  dismiss: 'Rozumiem!'
+  learnMore: 'Polityka cookie'
+  link: "http://cdn.lh/cookies.html"
+
+social_media:
+-
+  media: 'facebook'
+  link: 'https://www.facebook.com/'
+-
+  media: 'linkedin'
+  link: 'https://linkedin.com/'
+-
+  media: 'google-plus'
+  link: 'https://plus.google.com/'
+
+# Google Map:
+# google_map: API_ID
+# Google Analytics: change UA-XXXXX-X to be your site's ID.
+google_analytics_id: UA-XXXXXX-X
+
+

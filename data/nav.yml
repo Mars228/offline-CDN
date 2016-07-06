@@ -1,0 +1,4 @@
+menu:
+-
+  menuItem: 'Library'
+  menuLink: '#library'

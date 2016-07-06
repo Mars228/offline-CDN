@@ -1,0 +1,56 @@
+// site: cdn.lh
+////////////////////////////////////////////////
+
+$gray-g1: lighten(#000000, 96%); //F5F5F5
+$gray-g2: lighten(#000000, 93.5%); //EEEEEE
+$gray-g3: lighten(#000000, 92%); //EBEBEB
+$gray-g4: lighten(#000000, 89%); //E3E3E3
+$gray-g5: lighten(#000000, 83%); //D4D4D4
+$gray-g6: lighten(#000000, 68%); //ADADAD
+$gray-g7: lighten(#000000, 60%); //999999;
+$gray-g8: lighten(#000000, 46.7%); //777777
+$gray-g9: lighten(#000000, 33.5%); //555555
+$gray-g10: lighten(#000000, 20%); //333333
+$gray-g11: lighten(#000000, 13.5%); //222222
+
+$color-contrast: #FFFFFF;
+
+$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+
+$font-txt: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-txt-weight: 400;
+$font-txt-size: 14px;
+$font-txt-line: 21px;
+
+$font-title: "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-title-weight: 700;
+
+// Settings for the `<body>` element.
+// $text-color:            $gray-g10;
+
+$body-color: #072836;
+$body-bg: $color-contrast;
+
+// Links
+$link-color:                 #b0544f;
+$link-decoration:            none !default;
+
+$link-hover-color:           darken($link-color, 20%) !default;
+$link-hover-decoration:      underline !default;
+
+$negative_bg: #282828;
+$color-contrast: #FFFFFF;
+
+$header_bg: #b0544f;
+$accent-alt: #993a34;
+
+// Grid containers
+$screen-sm-max: 576px;
+$screen-md-max: 720px;
+$screen-lg-max: 940px;
+$screen-xl-max: 1140px;

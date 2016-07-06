@@ -1,0 +1,148 @@
+//$link-color:  #fed136; //#E53A0A  #FF5300  rgba(255, 83, 0, 1)
+
+/* ======= Header ======= */
+.header {
+	padding: 10px 0;
+	//background: $body-bg;
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	@include transition (all 0.4s ease-in-out);
+	
+	&.navbar-fixed-top {
+		background: $header_bg;
+		@include transition (all 0.4s ease-in-out);
+		z-index: 9999;
+		@include box-shadow (rgba(0, 0, 0, 0.6) 0 0 4px);
+		.logo {
+			a {
+				color: $color-contrast;
+			}
+		}
+		.main-nav .nav .nav-item a {
+			//color: $gray-g7;
+			color: #fff;
+		}
+	}
+	
+	.logo {
+		margin: 0;
+		font-size: 26px;
+		padding-top: 10px;
+		font-family: $font-title;
+		font-weight: 700;
+		a {
+			color:#fff;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+	.main-nav {      
+		button {
+			background: shade($body-bg, 30%);
+			color: #fff !important;
+			@include border-radius(4px);
+			&:focus {
+				outline: none;
+			}
+			.icon-bar {
+				background-color: #fff;
+			}
+		}
+		.navbar-collapse {
+			padding: 0;
+		}
+		.nav {
+			.nav-item {
+				font-weight: normal;
+				margin-right: 30px;
+				font-family: $font-title;
+				&.active {
+					a {
+						color: shade($accent-alt, 30%);
+						background: none;
+					}
+				}
+				a {
+					color: $color-contrast;
+					@include transition (none);
+					font-size: 14px;
+					padding: 15px 10px;
+					&:hover {  
+						color: shade($accent-alt, 30%);    
+						background: none;             
+					}
+					&:focus {
+						outline: none;
+						background: none;
+					}
+					&:active {
+						outline: none;
+						background: none;
+					}
+				}    
+				&.active {
+					color: $body-bg;             
+				}
+				&.last {
+					margin-right: 0;
+				}
+			}
+			
+		}
+		
+	}
+	
+}
+
+
+/* ======= Welcome ======= */
+.welcome {
+	//background-color: $body-bg;
+	background-color: #86484f;
+    background-image: url("../img/red-bg.jpg");
+	height:450px;
+
+
+	h1 {
+		margin-top: 0;
+		color: $color-contrast;
+		font-size: 3em;
+		font-family: $font-title;
+		font-weight: 400;
+		strong {
+			font-weight: 700;
+		}
+	}
+	p {
+		color: rgba(255, 255, 255, 0.6);
+		font-size: 1.8em;
+		font-family: $font-title;
+		line-height: 1.8em;
+		font-weight: 400;
+		padding: 1em 0 0 0;
+
+
+	}
+
+
+}
+
+.section {
+    padding: 8em 0;
+}
+
+
+.affix {
+  position: fixed;
+  top: 110px;
+}
+.affix-top {
+  position: static;
+}
+.affix-bottom {
+  position: absolute;
+}
+
+
