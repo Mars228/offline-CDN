@@ -7,6 +7,9 @@
 
 #set :layouts_dir, '_layouts'
 #set :partials_dir, '_partials'
+configure :development do
+  activate :livereload
+end
 
 # Asset Settings
 set :css_dir, 'assets/css'
@@ -24,6 +27,19 @@ page '/*.txt', layout: false
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
+
+activate :blog do |blog|
+  blog.name = "library"
+  blog.prefix = "library"
+  blog.permalink = "{title}.html"
+  # Matcher for blog source files
+  # blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.sources = "{title}.html"
+  blog.paginate = false
+  #blog.per_page = 6
+  blog.page_link = "page/:num"
+  #blog.layout = "library"
+end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
@@ -108,7 +124,7 @@ end
 #  deploy.host          = 'phobos'
 #  deploy.path          = '/mnt/750GB/works/phobos/web/cdn'
 #  deploy.clean = true
-#  deploy.flags = '-avz --chown=www-data:www-data'
+#  deploy.flags = '-avz --chown=nobody:nogroups'
 #  deploy.build_before = true
   
   # Optional Settings

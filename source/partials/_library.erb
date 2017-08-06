@@ -7,20 +7,20 @@
 
 			<div class="col-lg-9">
 
-				<% data.libraries.sort_by(&:link).each do |library|%>
-				<div id="<%= library['link'] %>" class="project">
+				<% blog('library').articles.sort_by(&:title).each do |library| %>
+				<div id="<%= library.data.link %>" class="project">
 
 					<div class="project-header">
-
+ 
 						<div class="row">
 
 							<div class="col-sm-4">
 
 								<div class="project-github">
-									<a href="<%= library['home_url'] %>" target="_blank"><%= library['creator'] %></a>
+									<a href="<%= library.data.homepage %>" target="_blank"><%= library.data.author %></a>
 								</div>
 
-								<div class="project-name"><h3><%= library['project'] %></h3></div>
+								<div class="project-name"><h3><%= library.data.project %></h3></div>
 
 							</div>
 
@@ -30,26 +30,26 @@
 
 									<div class="version-dropdown btn-group">
 
-										<% if library['versions'].size > 1 %>
+										<% if library.data.versions.count > 1 %>
 
 										<span class="dropdown-toggle version-dropdown-selected-version" data-toggle="dropdown">
-											<% library['versions'].each_with_index do |item, index| %>
-											<% if index == 0 %>
-											<a class="ver"><%= item['ver'] %> <i class="fa fa-chevron-down"></i></a>
+											<% library.data.versions.each_with_index do |item, index| %>
+                                            <% if index == 0 %>
+                                            <a class="ver"><%= item.ver %> <i class="fa fa-chevron-down"></i></a>
 										</span>
 	
 										<ul class="dropdown-menu">
 											<% end %>
-											<li><a href="#<%= library['link'] %>-<%= index %>" data-toggle="tab"><%= item['ver'] %></a></li>
-											<% end %>
+                                            <li><a href="#<%= library.data.link %>-<%= index %>" data-toggle="tab"><%= item.ver %></a></li>
+                                            <% end %>
 										</ul>
 
 										<% else %>
 							
 										<span class="dropdown-toggle version-dropdown-selected-version">
-											<% library['versions'].each_with_index do |item, index| %>
-											<a><%= item['ver'] %></a>
-											<% end %>
+											<% library.data.versions.each_with_index do |item, index| %>
+                                            <a><%= item.ver %></a>
+                                            <% end %>
 										</span>
 										
 										<% end %>
@@ -58,7 +58,7 @@
 
 								</div>
 
-								<%= library['desc'] %>
+								<%= library.summary %>
 
 							</div>
 						</div>
@@ -66,15 +66,15 @@
 
 					<div class="tab-content">
 
-						<% library['versions'].each_with_index do |version, index| %>
-						<% if index == 0 %>
-						<div role="tabpanel" id="<%= library['link'] %>-<%= index %>" class="tab-pane fade in active">
+						<% library.data.versions.each_with_index do |version, index| %>
+                        <% if index == 0 %>
+						<div role="tabpanel" id="<%= library.data.link %>-<%= index %>" class="tab-pane fade in active">
 						<% else %>
-						<div role="tabpanel" id="<%= library['link'] %>-<%= index %>" class="tab-pane fade in">
-						<%end %>
-							<% version['files'].each do |item| %>
-							<span class="project-file"><%= item %></span>
-							<% end %>
+						<div role="tabpanel" id="<%= library.data.link %>-<%= index %>" class="tab-pane fade in">
+						<% end %>
+							<% version.files.each do |item| %>
+                            <span class="project-file"><%= item %></span>
+                            <% end %>
 						</div>
 						<% end %>
 
@@ -89,10 +89,8 @@
 
 				<div id="sidebar" data-spy="affix">
 
-				<%# data.libraries.sort_by(&:downcase).each do |libra|%>
-				<% data.libraries.sort_by(&:link).each do |libra|%>
-				<a href="#<%= libra['link'] %>" class="badger scrollto">
-				<span class="name"><%= libra['project'] %></span><% libra['versions'].sort_by(&:link).each_with_index do |k, v|%><% if v == 0 %><span class="ver"><%= k['ver'] %></span><% end %><% end %></a>
+				<% blog('library').articles.sort_by(&:title).each do |library| %>
+				<a href="#<%= library.data.link %>" class="badger scrollto"><span class="name"><%= library.data.project %></span><% library.data.versions.sort_by(&:link).each_with_index do |k, v|%><% if v == 0 %><span class="ver"><%= k.ver %></span><% end %><% end %></a>
 				<% end %>
 
 				</div>
