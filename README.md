@@ -3,11 +3,11 @@ For those who work when web is unreachable.
 
 ## Components
 
+- Middleman + blog
 - Compass
 - Bootstrap (scss)
 - Fontawesome
 - JQuery
-- Middleman
 
 ## Installation
 
