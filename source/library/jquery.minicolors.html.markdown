@@ -1,7 +1,7 @@
 ---
-title:	jquery-minicolors
+title:	jquery.minicolors
 date:	2014-02-21 08:45 UTC
-tags:	jquery-minicolors
+tags:	jquery.minicolors
 cat:	libraries
 blog:	libraries
 
@@ -11,7 +11,7 @@ project:	jQuery MiniColors
 link:		jquery-minicolors
 
 versions: [
-	{ver: "2.2.4", files: ['http://cdn.lh/jquery-minicolors/2.2.4/jquery.minicolors.min.js', 'http://cdn.lh/jquery-minicolors/2.2.4/jquery.minicolors.css']}
+	{ver: "2.2.4", files: ['http://cdn.lh/jquery.minicolors/2.2.4/jquery.minicolors.min.js', 'http://cdn.lh/jquery.minicolors/2.2.4/jquery.minicolors.css']}
 ]
 ---
 

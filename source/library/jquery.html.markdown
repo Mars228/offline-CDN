@@ -11,6 +11,8 @@ project:	JQuery
 link:		jquery
 
 versions: [
+	{ver: "3.3.1", files: ['http://cdn.lh/jquery/3.3.1/jquery.min.js']},
+	{ver: "3.2.1", files: ['http://cdn.lh/jquery/3.2.1/jquery.min.js']},
 	{ver: "3.1.1", files: ['http://cdn.lh/jquery/3.1.1/jquery.min.js']},
 	{ver: "3.1.0", files: ['http://cdn.lh/jquery/3.1.0/jquery.min.js']},
 	{ver: "3.0.0", files: ['http://cdn.lh/jquery/3.0.0/jquery.min.js', 'http://cdn.lh/jquery/3.0.0/jquery.js']},

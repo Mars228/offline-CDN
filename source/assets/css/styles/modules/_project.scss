@@ -2,7 +2,6 @@
 	border: 2px solid #e6eceb;
 	margin-bottom: 30px;
 
-
 	.project-header {
 		background-color: #eef4f4;
 		border-bottom: 2px solid #e6eceb;
@@ -44,7 +43,6 @@
 	}
 }
 
-
 .project .project-header .project-name h3 a {
     color: #072836;
 }
@@ -67,11 +65,9 @@
     overflow-y: auto;
 }
 
-
 .btn-group.open .dropdown-toggle {
     box-shadow: none;
 }
-
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     background-color: #f5f5f5;
@@ -80,10 +76,6 @@
     outline: 0 none;
     text-decoration: none;
 }
-
-
-
-
 
 
 /* fancy buttons */
@@ -104,7 +96,9 @@
 		display: inline;
 		font-family: $font-title;
 		font-weight: 400;
-		@include border-left-radius(3px);
+
+		border-top-left-radius: 3px;
+		border-bottom-left-radius: 3px;
 	}
 	.ver {
 		//background-color: white;
@@ -118,7 +112,9 @@
 		display: inline;
 		font-family: $font-title;
 		font-weight: 400;
-		@include border-right-radius(3px);
+
+		border-top-right-radius: 3px;
+		border-bottom-right-radius: 3px;
 	}
 
 	&:hover, &:focus {
@@ -127,14 +123,16 @@
 			background-color: $accent-alt;
 			padding: 3px 4px;
 			border: none;
-			@include border-left-radius(3px);
+			border-top-left-radius: 3px;
+			border-bottom-left-radius: 3px;
 		}
 		.ver {
 			color: black;
 			background-color: white;
 			padding: 2px 3px;
 			border: 1px solid $accent-alt;
-			@include border-right-radius(3px);
+			border-top-right-radius: 3px;
+			border-bottom-right-radius: 3px;
 		}
 
 	}

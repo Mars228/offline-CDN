@@ -11,6 +11,8 @@ project:	momentjs
 link:		momentjs
 
 versions: [
+	{ver: "2.20.0", files: ['http://cdn.lh/momentjs/2.20.0/moment.min.js', 'http://cdn.lh/momentjs/2.20.0/locales.min.js', 'http://cdn.lh/momentjs/2.20.0//locale/pl.js']},
+	{ver: "2.19.1", files: ['http://cdn.lh/momentjs/2.19.1/moment.min.js', 'http://cdn.lh/momentjs/2.19.1/moment.js', 'http://cdn.lh/momentjs/2.19.1//locale/pl.js']},
 	{ver: "2.18.1", files: ['http://cdn.lh/momentjs/2.18.1/moment.min.js', 'http://cdn.lh/momentjs/2.18.1/moment.js', 'http://cdn.lh/momentjs/2.18.1//locale/pl.js']},
 	{ver: "2.17.1", files: ['http://cdn.lh/momentjs/2.17.1/moment.min.js', 'http://cdn.lh/momentjs/2.17.1/moment.js', 'http://cdn.lh/momentjs/2.17.1//locale/pl.js']},
 	{ver: "2.17.0", files: ['http://cdn.lh/momentjs/2.17.0/moment.min.js', 'http://cdn.lh/momentjs/2.17.0/moment.js', 'http://cdn.lh/momentjs/2.17.0//locale/pl.js']},

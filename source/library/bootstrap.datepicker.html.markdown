@@ -11,8 +11,8 @@ project:	bootstrap.datepicker
 link:		bootstrap-datepicker
 
 versions: [
-	{ver: "1.6.0", files: ['http://cdn.lh/bootstrap.datepicker/1.6.0/js/bootstrap-datepicker.min.js', 'http://cdn.lh/bootstrap.datepicker/1.6.0/css/datepicker.css', 'http://cdn.lh/bootstrap.datepicker/1.6.0/locales/bootstrap-datepicker.pl.min.js']},
-  {ver: "1.5.0", files: ['http://cdn.lh/bootstrap.datepicker/1.5.0/js/bootstrap-datepicker.min.js', 'http://cdn.lh/bootstrap.datepicker/1.5.0/css/datepicker.css', 'http://cdn.lh/bootstrap.datepicker/1.5.0/locales/bootstrap-datepicker.pl.min.js']},
+	{ver: "1.6.0", files: ['http://cdn.lh/bootstrap.datepicker/1.6.0/js/bootstrap-datepicker.min.js', 'http://cdn.lh/bootstrap.datepicker/1.6.0/css/bootstrap-datepicker.min.css', 'http://cdn.lh/bootstrap.datepicker/1.6.0/locales/bootstrap-datepicker.pl.min.js']},
+	{ver: "1.5.0", files: ['http://cdn.lh/bootstrap.datepicker/1.5.0/js/bootstrap-datepicker.min.js', 'http://cdn.lh/bootstrap.datepicker/1.5.0/css/bootstrap-datepicker.mincss', 'http://cdn.lh/bootstrap.datepicker/1.5.0/locales/bootstrap-datepicker.pl.min.js']},
 ]
 ---
 

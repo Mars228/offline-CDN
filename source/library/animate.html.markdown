@@ -11,7 +11,8 @@ project:	Animate.CSS
 link:		animate
 
 versions: [
-	{ver: "3.1.0", files: ['http://cdn.lh/animate/3.1.0/animate.min.css', 'http://cdn.lh/animate/3.1.0/animate.css']},
+	{ver: "3.5.2", files: ['http://cdn.lh/animate/3.5.2/animate.min.css', 'http://cdn.lh/animate/3.5.2/animate.css']},
+	{ver: "3.5.1", files: ['http://cdn.lh/animate/3.5.1/animate.min.css', 'http://cdn.lh/animate/3.5.1/animate.css']},
 ]
 ---
 

@@ -11,6 +11,7 @@ project:	jquery.easing
 link:		jquery-easing
 
 versions: [
+	{ver: "1.4.1", files: ['http://cdn.lh/jquery.easing/1.4.1/jquery.easing.min.js', 'http://cdn.lh/jquery.easing/1.4.1/jquery.easing.js', 'http://cdn.lh/jquery.easing/1.4.1/jquery.easing.compatibility.js']},
 	{ver: "1.3", files: ['http://cdn.lh/jquery.easing/1.3/jquery.easing.min.js', 'http://cdn.lh/jquery.easing/1.3/jquery.easing.js', 'http://cdn.lh/jquery.easing/1.3/jquery.easing.compatibility.js']}
 ]
 ---

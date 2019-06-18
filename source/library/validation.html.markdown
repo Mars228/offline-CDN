@@ -6,11 +6,14 @@ cat:	libraries
 blog:	libraries
 
 author:		Jörn Zaefferer
-homepage:	https://github.com/jzaefferer/jquery-validation
+homepage:	https://github.com/jquery-validation/jquery-validation
 project:	validation
 link:		validation
 
 versions: [
+	{ver: "1.17.0", files: ['http://cdn.lh/validation/1.17.0/jquery.validate.min.js', 'http://cdn.lh/validation/1.17.0/jquery.validate.js']},
+	{ver: "1.16.0", files: ['http://cdn.lh/validation/1.16.0/jquery.validate.min.js', 'http://cdn.lh/validation/1.16.0/jquery.validate.js']},
+	{ver: "1.15.1", files: ['http://cdn.lh/validation/1.15.1/jquery.validate.min.js', 'http://cdn.lh/validation/1.15.1/jquery.validate.js']},
 	{ver: "1.15.0", files: ['http://cdn.lh/validation/1.15.0/jquery.validate.min.js', 'http://cdn.lh/validation/1.15.0/jquery.validate.js']},
 	{ver: "1.14.0", files: ['http://cdn.lh/validation/1.14.0/jquery.validate.min.js', 'http://cdn.lh/validation/1.14.0/jquery.validate.js']}
 ]

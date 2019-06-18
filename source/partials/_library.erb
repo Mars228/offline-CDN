@@ -5,7 +5,7 @@
 
 		<div class="row">
 
-			<div class="col-lg-9">
+			<div class="col-lg-8 col-xs-12">
 
 				<% blog('library').articles.sort_by(&:title).each do |library| %>
 				<div id="<%= library.data.link %>" class="project">
@@ -85,7 +85,7 @@
 
 			</div>
 
-			<div id="sidebar-location" class="col-lg-3">
+			<div id="sidebar-location" class="col-lg-4 col-xs-12">
 
 				<div id="sidebar" data-spy="affix">
 

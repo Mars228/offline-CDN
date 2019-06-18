@@ -33,7 +33,7 @@ ul.social-buttons {
             line-height: 30px;
             color: #492e2c;
             outline: none;
-            @include transition (all 0.3s);
+            transition: all 0.3s;
 
             &:hover,
             &:focus,
@@ -51,12 +51,12 @@ ul.social-buttons {
 
 
 a {
-    @include transition (all 1s easy 1s);
+    transition: all 1s easy 1s;
     &.scrollup {
         width:50px;
         height:50px;
         padding: 0;//6px 8px 9px;
-        @include border-radius(4px);
+        border-radius: 4px;
         background: rgba(0,0,0,0.5);
         position:fixed;
         text-align: center;

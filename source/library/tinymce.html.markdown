@@ -11,6 +11,7 @@ project:	tinymce
 link:		tinymce
 
 versions: [
+	{ver: "4.6.6", files: ['http://cdn.lh/tinymce/4.6.6/tinymce.min.js', 'http://cdn.lh/tinymce/4.6.6/jquery.tinymce.min.js', 'http://cdn.lh/tinymce/4.6.6/langs/pl.js', 'http://cdn.lh/tinymce/4.6.6/plugins/anchor/plugin.min.js', 'http://cdn.lh/tinymce/4.6.6/plugins/colorpicker/plugin.min.js']},
 	{ver: "4.3.3", files: ['http://cdn.lh/tinymce/4.3.3/tinymce.min.js', 'http://cdn.lh/tinymce/4.3.3/jquery.tinymce.min.js', 'http://cdn.lh/tinymce/4.3.3/plugins/anchor/plugin.min.js', 'http://cdn.lh/tinymce/4.3.3/plugins/colorpicker/plugin.min.js']}
 ]
 ---

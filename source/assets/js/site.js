@@ -49,7 +49,9 @@ $(document).ready(function($) {
     });
     $('.scrollup').click(function(event){
         event.preventDefault();
-        $('html, body').animate({scrollTop : 0},400);
+        //$('html, body').animate({scrollTop : 0},400);
+        //$('html, body').stop().animate({scrollTop : 0},400);
+        $('html, body').animate({scrollTop : 0}, 800, 'easeInOutExpo');
         return false;
     });
 

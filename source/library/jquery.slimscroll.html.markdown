@@ -11,7 +11,9 @@ project:	jquery.slimscroll
 link:		jquery-slimscroll
 
 versions: [
-	{ver: "1.3.8", files: ['http://cdn.lh/jquery.slimscroll/1.3.8/jquery.slimscroll.js', 'http://cdn.lh/jquery.slimscroll/1.3.8/jquery.slimscroll.min.js']}
+	{ver: "1.3.8", files: [
+	'http://cdn.lh/jquery.slimscroll/1.3.8/jquery.slimscroll.js', 'http://cdn.lh/jquery.slimscroll/1.3.8/jquery.slimscroll.min.js']},
+	{ver: "1.3.0", files: ['http://cdn.lh/jquery.slimscroll/1.3.0/jquery.slimscroll.js', 'http://cdn.lh/jquery.slimscroll/1.3.0/jquery.slimscroll.min.js']}
 ]
 ---
 
