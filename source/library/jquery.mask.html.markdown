@@ -11,7 +11,8 @@ project:	jquery.mask
 link:		jquery-mask
 
 versions: [
-	{ver: "1.14.3", files: ['http://cdn.lh/jquery.mask/1.14.3/jquery.mask.min.js', 'http://cdn.lh/jquery.mask/1.14.3/jquery.mask.js']}
+	{ver: "1.14.15", files: ['http://cdn.lh/jquery.mask/1.14.15/jquery.mask.min.js', 'http://cdn.lh/jquery.mask/1.14.15/jquery.mask.js']},
+	{ver: "1.14.3", files: ['http://cdn.lh/jquery.mask/1.14.3/jquery.mask.min.js', 'http://cdn.lh/jquery.mask/1.14.3/jquery.mask.js']},
 ]
 ---
 
