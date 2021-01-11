@@ -23,7 +23,7 @@ gem "middleman-livereload"
 gem 'builder', '~> 3.2.3'
 
 # Code syntax highlighting
-gem 'redcarpet', '~> 3.4.0'
+gem 'redcarpet', '~> 3.5.1'
 gem 'pygments.rb', '~> 0.6.3'
 
 # For "summary"-Helper
